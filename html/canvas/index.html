@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Time Traveller</title>
+    <title>Time Loop</title>
     <link rel="icon" href="images/icons/time-spend.png" />
 
     <style>
@@ -77,6 +77,8 @@
       body.device-lg .onepage-outdoor-negetive {
         margin-top: -300px;
       }
+
+      .bg-overlay:hover {cursor: pointer;}
 
       @media (min-width: 768px) {
         #slider h2 {
@@ -208,12 +210,11 @@
               </div>
               <div class="swiper-slide dark">
                 <div
+                  id="homeImg"
                   class="swiper-slide-bg"
                   style="
                     background-image: url('one-page/images/page/steampunk.jpg');
-                    background-position: center;
-                    background-repeat: no-repeat;
-                  "
+                    background-position: center;"
                 ></div>
               </div>
             </div>
@@ -221,7 +222,7 @@
           <div class="vertical-middle">
             <div class="container center">
               <h2 class="fw-bold mb-0" style="font-family: 'Playfair Display'">
-                Time Travel
+                Time Loop
               </h2>
               <p class="ls1 fw-light">Repeat yourself</p>
               <a
@@ -442,253 +443,32 @@
                 </div>
               </div>
             </div>
-
-            <div class="portfolio grid-container row g-0">
-              <article
-                class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide"
-              >
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/1.jpg"
-                        alt="Open Imagination"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span
-                            ><a href="#">Media</a>, <a href="#">Icons</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
+            <div class="col-md-3 my-5 mx-5">
+              <div class="team">
+                <div class="team-image">
+                  <img src="one-page/images/page/churuli.jpg" alt="Abhishek" />
+                  <div class="bg-overlay">
+                    <div
+                      class="bg-overlay-content align-items-end"
+                      data-hover-animate="fadeIn"
+                      data-hover-speed="400"
+                    >
+                      <h1 style="text-align: center;">CHURULI</h1>
                     </div>
+                    <div
+                      class="bg-overlay-bg"
+                      data-hover-animate="fadeIn"
+                      data-hover-speed="400"
+                    ></div>
                   </div>
                 </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/2.jpg"
-                        alt="Locked Steel Gate"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Locked Steel Gate</a></h3>
-                          <span><a href="#">Illustrations</a></span>
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
+                <div class="team-desc team-desc-bg">
+                  <div class="team-title">
+                    <h4>Abhishek</h4>
+                    <span>Clerk</span>
                   </div>
                 </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/3.jpg"
-                        alt="Mac Sunglasses"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Mac Sunglasses</a></h3>
-                          <span
-                            ><a href="#">Graphics</a>,
-                            <a href="#">UI Elements</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article
-                class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide"
-              >
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/4.jpg"
-                        alt="Open Imagination"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span
-                            ><a href="#">Media</a>, <a href="#">Icons</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article
-                class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide"
-              >
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/5.jpg"
-                        alt="Console Activity"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Console Activity</a></h3>
-                          <span
-                            ><a href="#">UI Elements</a>,
-                            <a href="#">Media</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/6.jpg"
-                        alt="Open Imagination"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span
-                            ><a href="#">Media</a>, <a href="#">Icons</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image">
-                    <a href="#">
-                      <img
-                        src="one-page/images/portfolio/mixed/7.jpg"
-                        alt="Backpack Contents"
-                      />
-                    </a>
-                    <div class="bg-overlay">
-                      <div
-                        class="bg-overlay-content flex-column"
-                        data-hover-animate="fadeIn"
-                      >
-                        <div
-                          class="portfolio-desc p-0 center"
-                          data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutDownSmall"
-                          data-hover-speed="350"
-                        >
-                          <h3><a href="#">Backpack Contents</a></h3>
-                          <span
-                            ><a href="#">UI Elements</a>,
-                            <a href="#">Icons</a></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="bg-overlay-bg"
-                        data-hover-animate="fadeIn"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
+              </div>
             </div>
             <div class="topmargin center">
               <a href="#" class="button button-border button-circle fw-semibold"
@@ -1283,7 +1063,8 @@
                       <a
                         href="#"
                         data-scrollto="#section-contact"
-                        data-easing="easeInOutExpo"
+    <!-- <script src="js/jquery.js"></script> -->
+    data-easing="easeInOutExpo"
                         data-speed="1250"
                         data-offset="70"
                         >Contact</a
@@ -1380,7 +1161,6 @@
       data-cfasync="false"
       src="https://themes.semicolonweb.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
-    <!-- <script src="js/jquery.js"></script> -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
