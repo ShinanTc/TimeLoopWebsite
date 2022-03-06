@@ -611,6 +611,53 @@ textarea.border-form-control {
 	color: #BBB;
 }
 
+.swiper-1 {
+	background: url('/canvas/one-page/images/page/pocket-watch.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.swiper-1::before {
+	content: '';
+	position: absolute;
+	background-color: #000;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+}
+
+.swiper-2 {
+	background: url('/canvas/one-page/images/page/clock.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.swiper-2::before {
+	content: '';
+	position: absolute;
+	background-color: #000;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+}
+
+.swiper-3 {
+	background: url('/canvas/one-page/images/page/steampunk.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.swiper-3::before {
+	content: '';
+	position: absolute;
+	background-color: #000;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+}
 
 
 /* ----------------------------------------------------------------------------
