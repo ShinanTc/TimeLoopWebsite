@@ -675,7 +675,7 @@ textarea.border-form-control {
 }
 
 .swiper-1 {
-  background: url("/html/canvas/one-page/images/page/home-background-images/clock.jpg");
+  background: url("/one-page/images/page/home-background-images/clock.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -691,7 +691,7 @@ textarea.border-form-control {
 }
 
 .swiper-2 {
-  background: url("/html/canvas/one-page/images/page/home-background-images/pocket-watch.jpg");
+  background: url("/one-page/images/page/home-background-images/pocket-watch.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -707,7 +707,7 @@ textarea.border-form-control {
 }
 
 .swiper-3 {
-  background: url("/html/canvas/one-page/images/page/home-background-images/steampunk.jpg");
+  background: url("/one-page/images/page/home-background-images/steampunk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
